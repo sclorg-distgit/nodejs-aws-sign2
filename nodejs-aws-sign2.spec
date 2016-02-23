@@ -7,7 +7,7 @@
 
 Name:		%{?scl_prefix}nodejs-aws-sign2
 Version:	0.5.0
-Release:	3%{?dist}
+Release:	4%{?dist}
 Summary:	AWS signing.
 Url:		http://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -41,6 +41,9 @@ cp -pr package.json index.js \
 %doc README.md LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.5.0-4
+- rebuilt
+
 * Tue Jul 21 2015 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.5.0-3
 - rebuilt
 
